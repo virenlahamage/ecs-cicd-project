@@ -5,7 +5,7 @@ from flask import Flask, jsonify, render_template_string
 
 app = Flask(__name__)
 
-APP_VERSION = os.getenv("APP_VERSION", "1.0.0")
+APP_VERSION = os.getenv("APP_VERSION", "1.1.0")
 GIT_COMMIT = os.getenv("GIT_COMMIT", "local")
 ENVIRONMENT = os.getenv("APP_ENV", "development")
 
